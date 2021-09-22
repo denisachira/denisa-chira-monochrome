@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monochrome</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Welcome to the Pixellab Builder</title>
-</head>
+  <body class="home-page">
+    <header class="header">
+      <% include html/header/header-main.html %> 
+      <% include html/header/header-nav.html %>
+    </header>
 
-<body>
+    <main class="content">
+      <% include html/home/home-banner.html %>
+    </main>
 
-  <h1>bla bla</h1>
-</body>
-
+    <footer class="footer">
+      <% include html/footer/footer-top.html %> 
+      <% include html/footer/footer-bottom.html %>
+    </footer>
+  </body>
 </html>

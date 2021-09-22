@@ -1,0 +1,56 @@
+.delivery {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  color: $gray-primary;
+  font-family: "Roboto Regular";
+  font-size: 14px;
+
+  h6{
+    padding-top: 5px;
+  }
+}
+
+.header-controls {
+  margin-bottom: 16px;
+
+  @include media-breakpoint-up("lg") {
+    position: absolute;
+    top: 30px;
+    right: 260px;
+    width: 350px;
+  }
+
+  .search-bar {
+    font-size: 15px;
+  }
+
+  .header-search {
+    width: 90px;
+    height: 30px;
+
+    .search-form {
+      padding-left: 10px;
+    }
+  }
+
+  .page-title {
+    float: left;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 22px;
+    padding-top: 2px;
+    margin-left: 18px;
+  }
+
+  .controls {
+    float: right;
+
+    li {
+      padding: 0 12px;
+    }
+
+    a {
+      color: $brand-primary;
+    }
+  }
+}

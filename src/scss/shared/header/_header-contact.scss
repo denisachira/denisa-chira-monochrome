@@ -1,0 +1,20 @@
+.header-contact {
+  position: absolute;
+  top: 30px;
+  left: 260px;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 0 9px;
+  }
+
+  a {
+    color: $white;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
